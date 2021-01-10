@@ -20,7 +20,9 @@ and includes a link to the original tweet. Unfortunatly, links included in tweet
 
 The bot waits 15 seconds between sending a new parley, and 30 minutes between "scraping sessions," to avoid potentially overloading Parler's servers. These time limits can be increased should the Parler staff complain. 
 
-## Criteria for adding Twitter accounts:
+## Can I Contribute?
+Please! Feel free to modify this bot if you have some neat ideas. Another great way to contribute is to add Twitter accounts you'd like this bot to scrape, by either creating a pull request or sending a message to @Tweet2Parley on Parler.
+### Criteria for adding Twitter accounts:
 - They should have some sort of national or global significance (such as POTUS, companies, or large organizations)
 - They should NOT have a Parler account (as this would create redundancy). If a user in the forward list creates a Parler account, they should be removed.
 - The account should not promote nudity, violate Parler ToS (or for that matter, Twitter ToS as well), be designed to scam or spam, nor promote/contain illegal content (such as CP, selling illegal drugs, etc)
