@@ -28,7 +28,7 @@ Please! Feel free to modify this bot if you have some neat ideas. Another great 
 - The account should not promote nudity, violate Parler ToS (or for that matter, Twitter ToS as well), be designed to scam or spam, nor promote/contain illegal content (such as CP, selling illegal drugs, etc)
 
 ## To Do:
-- Automate adding accounts. Currently, it is not possible to search/scrape Parler for data or keywords. If such a method becomes possible, may account creation can be automated by Parleying something like `Follow TwitterUserX @Tweet2Parley`. (All ears on suggestions to automate this process now, though!)
+- Automate adding accounts. Currently, it is not possible to search/scrape Parler for data or keywords. If such a method becomes possible, maybe account creation can be automated by Parleying something like `Follow TwitterUserX @Tweet2Parley`. (All ears on suggestions to automate this process now, though!)
 
 You can message @Tweet2Parley on Parler to request for Twitter accounts to be added, or create a pull request here.
 
