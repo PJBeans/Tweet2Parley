@@ -1,7 +1,7 @@
 # Tweet2Parley
 Tweet2Parley finds tweets from Twitter and sends them as parleys to Parler.
 
-[b]DISCLAIMER:[/b] We have absoultely NO political affiliation nor preference. Say what you will about both Parler and Twitter, their user bases, and ideologies; our goal is simply to make all information as accessible as possible.
+**DISCLAIMER:** We have absoultely NO political affiliation nor preference. Say what you will about both Parler and Twitter, their user bases, and ideologies; our goal is simply to make all information as accessible as possible.
 
 Tweet2Parley attempts to fill in the gap left by larger, mainstream Twitter accounts who do not have Parler. It is designed as a solution to help move from Twitter to Parler entirely. Currently, it only forwards tweets from a select few accounts (some important, many... not so important :)  )
 
