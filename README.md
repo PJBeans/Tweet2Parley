@@ -18,6 +18,8 @@ Oh no i need to take my #ibuprofen
 ```
 and includes a link to the original tweet. Unfortunatly, links included in tweets are removed and added to the array at the bottom of each Parley, but that's probably the only formatting issue.
 
+The bot waits 15 seconds between sending a new parley, and 30 minutes between "scraping sessions," to avoid potentially overloading Parler's servers. These time limits can be increased should the Parler staff complain. 
+
 ## Criteria for adding Twitter accounts:
 - They should have some sort of national or global significance (such as POTUS, companies, or large organizations)
 - They should NOT have a Parler account (as this would create redundancy). If a user in the forward list creates a Parler account, they should be removed.
