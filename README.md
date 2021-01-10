@@ -5,6 +5,19 @@ Tweet2Parley finds tweets from Twitter and sends them as parleys to Parler.
 
 Tweet2Parley attempts to fill in the gap left by larger, mainstream Twitter accounts who do not have Parler. It is designed as a solution to help move from Twitter to Parler entirely. Currently, it only forwards tweets from a select few accounts (some important, many... not so important :)  )
 
+## How does it work:
+There is a "forward list" called "scrapeUsers." The bot will search for the past 25 tweets made by each user in that list. If it finds a tweet, AND that tweet was tweeted on the same day it was found (i.e.: if the tweet was made today), *AND* that tweet hasn't been forwarded to Parler already, a new Parley is created in the following format:
+```
+@#twitterUserX tweeted:
+wow this is insane
+im vibing with the cows right now
+
+but wait, what time is it?
+Oh no i need to take my #ibuprofen
+(Tweeted on 2020-01-09 at 12:01:05)
+```
+and includes a link to the original tweet. Unfortunatly, links included in tweets are removed and added to the array at the bottom of each Parley, but that's probably the only formatting issue.
+
 ## Criteria for adding Twitter accounts:
 - They should have some sort of national or global significance (such as POTUS, companies, or large organizations)
 - They should NOT have a Parler account (as this would create redundancy). If a user in the forward list creates a Parler account, they should be removed.
